@@ -1,0 +1,487 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Артём Некрасов, юрист</title>
+  <meta name="description" content="Юрист: рекламное право, интеллектуальная собственность, персональные данные. Правовое сопровождение сети Telegram-каналов Keystomoscow, практика в Палате судебных экспертиз.">
+  <meta name="theme-color" content="#f7f7f5">
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="ru_RU">
+  <meta property="og:title" content="Артём Некрасов, юрист">
+  <meta property="og:description" content="Рекламное право, интеллектуальная собственность, персональные данные.">
+  <meta property="og:url" content="https://nekrasov-law.github.io/">
+  <!-- Адрес картинки превью полный: по относительному мессенджеры её не находят -->
+  <meta property="og:image" content="https://nekrasov-law.github.io/assets/img/og.jpg">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Caveat:wght@600&family=JetBrains+Mono:wght@400;500&family=Manrope:wght@400;500;700&family=Sofia+Sans+Extra+Condensed:wght@700;800;900&display=swap">
+
+  <link rel="stylesheet" href="css/base.css">
+  <link rel="stylesheet" href="css/sections.css">
+  <link rel="stylesheet" href="css/cases.css">
+  <script>document.documentElement.classList.add('js');</script>
+</head>
+<body>
+<a class="skip" href="#main">Перейти к содержанию</a>
+
+<!-- ============ НАВИГАЦИЯ ============ -->
+<nav class="nav" aria-label="Основная навигация" data-nav>
+  <a class="nav__brand" href="#top">Артём Некрасов</a>
+  <ul class="nav__links">
+    <li><a href="#about">Образование</a></li>
+    <li><a href="#cases">Опыт</a></li>
+    <li><a href="#skills">Навыки</a></li>
+    <li><a href="#contact">Контакты</a></li>
+  </ul>
+  <button class="nav__burger" type="button" aria-expanded="false" aria-controls="menu" data-menu-open>Меню</button>
+</nav>
+
+<div class="menu" id="menu" role="dialog" aria-modal="true" aria-label="Меню" hidden data-menu>
+  <button class="menu__close" type="button" data-menu-close>Закрыть</button>
+  <ul class="menu__links">
+    <li><a href="#numbers"><span>01</span>Цифры</a></li>
+    <li><a href="#about"><span>02</span>Образование</a></li>
+    <li><a href="#cases"><span>03</span>Опыт</a></li>
+    <li><a href="#skills"><span>04</span>Навыки</a></li>
+    <li><a href="#contact"><span>05</span>Контакты</a></li>
+  </ul>
+  <a class="menu__tg" href="mailto:artem.nekras@mail.ru">Написать на почту ↗</a>
+</div>
+
+<!-- ============ ОБЛОЖКА ============ -->
+<header class="hero" id="top" data-theme="light">
+  <div class="hero__top">
+    <div class="hero__intro">
+      <p class="eyebrow eyebrow--lime hero__role">Юрист</p>
+      <p class="hero__lead">Рекламное право. Интеллектуальная собственность. <span>Персональные данные.</span></p>
+      <div class="hero__cta">
+        <a class="btn btn--lime" href="#cases">Смотреть опыт <span class="btn__arrow" aria-hidden="true">↓</span></a>
+        <a class="btn btn--line" href="mailto:artem.nekras@mail.ru">Написать на почту</a>
+      </div>
+    </div>
+    <dl class="hero__facts">
+      <div><dt>Опыт</dt><dd>2+ года</dd></div>
+      <div><dt>Город</dt><dd>Москва</dd></div>
+      <div><dt>Формат</dt><dd>офис, удалённо или гибрид</dd></div>
+    </dl>
+  </div>
+
+  <div class="hero__word">
+    <h1 class="hero__name">
+      <span class="hero__first" data-fit-mobile><span class="fit">Артём</span></span>
+      <span class="hero__last" data-fit><span class="fit">Некрасов</span></span>
+    </h1>
+    <!-- контур фамилии поверх фотографии: буквы читаются и там, где их закрывает портрет -->
+    <span class="hero__last hero__ghost" data-fit aria-hidden="true"><span class="fit">Некрасов</span></span>
+  </div>
+
+  <figure class="hero__photo" data-parallax="0.06">
+    <!-- Замена фото: положите свой файл с прозрачным фоном в assets/img/artem-cutout.webp -->
+    <img src="assets/img/artem-cutout.webp" alt="Артём Некрасов, чёрно-белый портрет" width="1333" height="1529" fetchpriority="high" decoding="async">
+  </figure>
+
+  <p class="sticker hero__sticker" aria-hidden="true">38-ФЗ&nbsp;·&nbsp;152-ФЗ</p>
+</header>
+
+<main id="main">
+
+<!-- ============ 01. РЕЗУЛЬТАТЫ В ЦИФРАХ ============ -->
+<section class="numbers sec sec--milk" id="numbers" data-theme="light" aria-labelledby="numbers-title">
+  <div class="sec__head">
+    <p class="eyebrow">01 / Результаты</p>
+    <h2 class="h-sec reveal-clip" id="numbers-title">Результаты в&nbsp;<mark>цифрах</mark></h2>
+  </div>
+
+  <ol class="numbers__list">
+    <li class="num reveal">
+      <p class="num__tag">Палата судебных экспертиз</p>
+      <p class="num__value"><span data-count="20" data-suffix="+">20+</span></p>
+      <p class="num__text">экспертных заключений по&nbsp;товарным знакам и&nbsp;логотипам.</p>
+    </li>
+    <li class="num reveal">
+      <p class="num__tag">Keystomoscow</p>
+      <p class="num__value"><span data-count="60" data-suffix="K+">60K+</span></p>
+      <p class="num__text">подписчиков в&nbsp;сети из&nbsp;5 Telegram-каналов, правовое сопровождение которой я&nbsp;веду.</p>
+    </li>
+    <li class="num num--marked reveal">
+      <p class="num__tag">Keystomoscow</p>
+      <p class="num__value"><span>0</span></p>
+      <p class="num__text">нарушений рекламного законодательства в&nbsp;проекте.</p>
+    </li>
+    <li class="num reveal">
+      <p class="num__tag">Опыт</p>
+      <p class="num__value"><span data-count="2" data-suffix="+">2+</span><small>года</small></p>
+      <p class="num__text">практики: реклама, договоры, персональные данные, интеллектуальная собственность.</p>
+    </li>
+  </ol>
+</section>
+
+<!-- ============ 02. ОБРАЗОВАНИЕ ============ -->
+<section class="about sec sec--dark" id="about" data-theme="dark" aria-labelledby="about-title">
+  <div class="about__main">
+    <p class="eyebrow eyebrow--lime">02 / Образование</p>
+    <h2 class="about__title reveal-clip" id="about-title">Финансовый университет при&nbsp;Правительстве&nbsp;РФ</h2>
+    <ol class="edu__list">
+      <li class="reveal"><span>2026</span><b>Магистратура с&nbsp;отличием</b><em>Юридический факультет, «Цифровой юрист»</em></li>
+      <li class="reveal"><span>2026</span><b>Повышение квалификации</b><em>Юрист в&nbsp;области интеллектуальной собственности</em></li>
+      <li class="reveal"><span>2024</span><b>Бакалавриат</b><em>Юридический факультет, юриспруденция</em></li>
+      <li class="reveal"><span>2021</span><b>Сертификат</b><em>Знание СПС «КонсультантПлюс»</em></li>
+    </ol>
+  </div>
+
+  <figure class="about__photo reveal">
+    <!-- Замена фото: assets/img/artem-diploma.webp, обычный прямоугольный кадр, пропорции 4:5 -->
+    <img src="assets/img/artem-diploma.webp" alt="Артём Некрасов с дипломом Финансового университета" width="890" height="1112" loading="lazy" decoding="async">
+    <figcaption><b>Красный диплом</b><span>Магистратура, «Цифровой юрист»</span></figcaption>
+  </figure>
+</section>
+
+<!-- ============ 03. ОПЫТ ============ -->
+<div id="cases" data-cases>
+
+<section class="cases-intro sec sec--milk" data-theme="light" aria-labelledby="cases-title">
+  <p class="eyebrow">03 / Опыт работы</p>
+  <h2 class="cases-intro__title reveal-clip" id="cases-title" data-fit data-fit-max="0.66"><span class="fit">Опыт</span></h2>
+  <ol class="cases-intro__list">
+    <li class="reveal"><a href="#case-ktm"><span class="idx">01</span><span class="name">Keystomoscow</span><span class="what">Правовое сопровождение медиапроекта: реклама, договоры, персональные данные, регулятор</span><span class="go" aria-hidden="true">↓</span></a></li>
+    <li class="reveal"><a href="#case-sudex"><span class="idx">02</span><span class="name">Палата судебных экспертиз</span><span class="what">Практика: интеллектуальная собственность и&nbsp;средства индивидуализации</span><span class="go" aria-hidden="true">↓</span></a></li>
+  </ol>
+</section>
+
+<!-- ---------- 01. KEYSTOMOSCOW ---------- -->
+<article class="case case-ktm sec sec--dark" id="case-ktm" data-theme="dark" data-case="01" aria-labelledby="ktm-title">
+  <header class="case__head">
+    <p class="eyebrow eyebrow--lime">Опыт 01 / 02 · Правовое сопровождение медиапроекта</p>
+    <h3 class="case__title reveal-clip" id="ktm-title" data-fit><span class="fit">Keys<em>to</em>moscow</span></h3>
+  </header>
+
+  <dl class="case__meta reveal">
+    <div><dt>Моя роль</dt><dd>Основатель, правовое сопровождение проекта</dd></div>
+    <div><dt>Период</dt><dd>с&nbsp;августа 2024</dd></div>
+    <div><dt>Проект</dt><dd>Сеть из&nbsp;5 Telegram-каналов об&nbsp;аренде жилья без комиссии: более 60&nbsp;000 подписчиков, команда 11 человек</dd></div>
+    <div><dt>Ссылка</dt><dd><a class="link" href="https://t.me/keystomoscow" target="_blank" rel="noopener">t.me/keystomoscow ↗</a></dd></div>
+  </dl>
+
+  <div class="case__lead reveal">
+    <h4 class="case__label">Зона ответственности</h4>
+    <p class="case__big">Самостоятельно веду всё правовое сопровождение проекта: реклама, договоры, персональные данные, взаимодействие с&nbsp;регулятором.</p>
+  </div>
+
+  <div class="flow" aria-labelledby="ktm-flow-title">
+    <h4 class="case__label" id="ktm-flow-title">Четыре области сопровождения</h4>
+    <ol class="flow__list">
+      <li class="flow__step reveal">
+        <span class="flow__n">01</span>
+        <p class="flow__k">Реклама</p>
+        <p class="flow__t">38-ФЗ «О&nbsp;рекламе»</p>
+        <p class="flow__d">Маркировка интернет-рекламы: работа с&nbsp;ОРД, получение токенов, отчётность в&nbsp;ЕРИР. Контроль соответствия размещений закону.</p>
+      </li>
+      <li class="flow__step reveal">
+        <span class="flow__n">02</span>
+        <p class="flow__k">Договоры</p>
+        <p class="flow__t">Типовые и&nbsp;партнёрские</p>
+        <p class="flow__d">Разработка и&nbsp;согласование договоров с&nbsp;рекламодателями, подрядчиками и&nbsp;командой. Переговоры и&nbsp;заключение партнёрских договоров.</p>
+      </li>
+      <li class="flow__step reveal">
+        <span class="flow__n">03</span>
+        <p class="flow__k">Данные</p>
+        <p class="flow__t">152-ФЗ</p>
+        <p class="flow__d">Соответствие требованиям закона при работе с&nbsp;аудиторией и&nbsp;чат-ботами.</p>
+      </li>
+      <li class="flow__step reveal">
+        <span class="flow__n">04</span>
+        <p class="flow__k">Регулятор</p>
+        <p class="flow__t">Роскомнадзор</p>
+        <p class="flow__d">Регистрация каналов в&nbsp;реестре, анализ регуляторных требований и&nbsp;рисков, мониторинг изменений в&nbsp;регулировании.</p>
+      </li>
+    </ol>
+  </div>
+
+  <div class="case__cols">
+    <div>
+      <h4 class="case__label">Обязанности</h4>
+      <ol class="did">
+        <li class="reveal">Маркировка интернет-рекламы по&nbsp;38-ФЗ «О&nbsp;рекламе»: работа с&nbsp;ОРД, получение токенов, отчётность в&nbsp;ЕРИР.</li>
+        <li class="reveal">Контроль соответствия рекламных размещений требованиям законодательства о&nbsp;рекламе.</li>
+        <li class="reveal">Договорная работа: разработка и&nbsp;согласование договоров с&nbsp;рекламодателями, подрядчиками и&nbsp;командой.</li>
+        <li class="reveal">Переговоры и&nbsp;заключение партнёрских договоров.</li>
+        <li class="reveal">Обеспечение соответствия требованиям 152-ФЗ при работе с&nbsp;аудиторией и&nbsp;чат-ботами.</li>
+        <li class="reveal">Взаимодействие с&nbsp;РКН: регистрация каналов в&nbsp;реестре, анализ регуляторных требований и&nbsp;рисков.</li>
+        <li class="reveal">Мониторинг изменений в&nbsp;регулировании рекламы, медиа и&nbsp;персональных данных.</li>
+      </ol>
+    </div>
+
+    <div>
+      <h4 class="case__label">Результаты</h4>
+      <ol class="outcomes">
+        <li class="reveal">Выстроил с&nbsp;нуля правовую инфраструктуру медиапроекта: регистрация в&nbsp;РКН, система маркировки рекламы, пакет договоров. Проект работает без нарушений рекламного законодательства.</li>
+        <li class="reveal">Разработал типовые договоры для всех ключевых отношений проекта: рекламодатели, подрядчики, команда. Это снизило юридические риски и&nbsp;ускорило заключение сделок.</li>
+        <li class="reveal">Заключил и&nbsp;сопровождаю партнёрский договор с&nbsp;Яндекс Арендой по&nbsp;CPA-модели: согласовал условия, контролирую исполнение.</li>
+      </ol>
+    </div>
+  </div>
+
+  <a class="case__next" href="#case-sudex"><span>Следующее место работы</span><strong>Палата судебных экспертиз</strong><i aria-hidden="true">→</i></a>
+</article>
+
+<!-- ---------- 02. ПАЛАТА СУДЕБНЫХ ЭКСПЕРТИЗ ---------- -->
+<article class="case case-sudex sec sec--milk" id="case-sudex" data-theme="light" data-case="02" aria-labelledby="sudex-title">
+  <header class="case__head">
+    <p class="eyebrow">Опыт 02 / 02 · Интеллектуальная собственность</p>
+    <h3 class="case__title case__title--wrap reveal-clip" id="sudex-title">Палата судебных экспертиз</h3>
+  </header>
+
+  <dl class="case__meta reveal">
+    <div><dt>Моя роль</dt><dd>Юрист-стажёр (практика)</dd></div>
+    <div><dt>Период</dt><dd>март&nbsp;– июнь 2026</dd></div>
+    <div><dt>Фокус</dt><dd>Интеллектуальная собственность и&nbsp;средства индивидуализации</dd></div>
+    <div><dt>Организация</dt><dd><a class="link" href="https://sudex.su/about" target="_blank" rel="noopener">АНО, sudex.su ↗</a></dd></div>
+  </dl>
+
+  <div class="ip">
+    <div>
+      <p class="mega reveal"><b><span data-count="20" data-suffix="+">20+</span></b></p>
+      <p class="mega__cap reveal">экспертных заключений по&nbsp;товарным знакам и&nbsp;логотипам</p>
+    </div>
+
+    <div aria-labelledby="sudex-cycle-title">
+      <h4 class="case__label" id="sudex-cycle-title">Полный цикл работы с&nbsp;объектами ИС</h4>
+      <div class="lanes__grid">
+        <div class="lanes__mid reveal">
+          <b>Экспертиза</b>
+          <span>Сравнительный анализ товарных знаков и&nbsp;логотипов на&nbsp;тождество и&nbsp;сходство до&nbsp;степени смешения</span>
+        </div>
+        <div class="lanes__arrow" aria-hidden="true"></div>
+        <div class="lanes__mid reveal">
+          <b>Заключение</b>
+          <span>Использовались как доказательная база в&nbsp;спорах о&nbsp;нарушении прав на&nbsp;средства индивидуализации</span>
+        </div>
+        <div class="lanes__arrow" aria-hidden="true"></div>
+        <div class="lanes__mid lanes__mid--out reveal">
+          <b>Договор</b>
+          <span>Лицензионные договоры и&nbsp;договоры об&nbsp;отчуждении исключительного права</span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="case__cols">
+    <div>
+      <h4 class="case__label">Обязанности</h4>
+      <ol class="did">
+        <li class="reveal">Правовая экспертиза товарных знаков и&nbsp;логотипов: сравнительный анализ на&nbsp;тождество и&nbsp;сходство до&nbsp;степени смешения, подготовка заключений.</li>
+        <li class="reveal">Подготовка лицензионных договоров и&nbsp;договоров об&nbsp;отчуждении исключительного права.</li>
+        <li class="reveal">Сопровождение вопросов авторского права и&nbsp;интеллектуальной собственности.</li>
+        <li class="reveal">Подготовка юридических заключений по&nbsp;гражданским и&nbsp;арбитражным делам.</li>
+        <li class="reveal">Составление проектов договоров, процессуальных и&nbsp;сопроводительных документов.</li>
+        <li class="reveal">Правовая экспертиза документов и&nbsp;локальных актов.</li>
+        <li class="reveal">Участие в&nbsp;выездных экспертизах: осмотр объектов, сбор и&nbsp;фиксация материалов.</li>
+        <li class="reveal">Поиск, анализ и&nbsp;систематизация судебной практики.</li>
+        <li class="reveal">Работа с&nbsp;КонсультантПлюс, Гарант, системами ЭДО.</li>
+      </ol>
+    </div>
+
+    <div>
+      <h4 class="case__label">Результаты</h4>
+      <ol class="outcomes">
+        <li class="reveal">Подготовил экспертные заключения по&nbsp;более чем 20 товарным знакам и&nbsp;логотипам.</li>
+        <li class="reveal">Заключения использовались как доказательная база в&nbsp;спорах о&nbsp;нарушении прав на&nbsp;средства индивидуализации.</li>
+        <li class="reveal">Прошёл полный цикл работы с&nbsp;объектами ИС: от&nbsp;экспертизы обозначений до&nbsp;подготовки договоров отчуждения прав.</li>
+      </ol>
+    </div>
+  </div>
+
+  <a class="case__next" href="#irony"><span>Дальше</span><strong>Право на&nbsp;практике</strong><i aria-hidden="true">→</i></a>
+</article>
+
+<!-- переключатель мест работы -->
+<nav class="casebar" aria-label="Переход между местами работы" data-casebar hidden>
+  <a href="#case-ktm" data-case-link="01"><span>01</span><b>Keystomoscow</b></a>
+  <a href="#case-sudex" data-case-link="02"><span>02</span><b>Палата судебных экспертиз</b></a>
+</nav>
+
+</div><!-- /#cases -->
+
+<!-- ============ 04. ПРАВО В ТЕОРИИ / НА ПРАКТИКЕ ============ -->
+<section class="irony sec sec--dark" id="irony" data-theme="dark" aria-labelledby="irony-title">
+  <div class="sec__head">
+    <p class="eyebrow eyebrow--lime">04 / Теория и&nbsp;практика</p>
+    <h2 class="h-sec irony__title reveal-clip" id="irony-title">Право в&nbsp;теории <span class="slash">/</span> <span class="irony__life">Право на&nbsp;практике</span></h2>
+    <p class="sec__aside reveal">Четыре эпизода. Нажмите, чтобы увидеть вторую версию.</p>
+  </div>
+
+  <div class="gags">
+    <!-- Эпизод 1 -->
+    <article class="gag reveal" data-gag>
+      <header class="gag__top"><span>Эпизод 01</span><h3>Договор</h3></header>
+      <div class="gag__stage">
+        <div class="gag__face gag__face--slide">
+          <p class="gag__cap">В&nbsp;теории</p>
+          <p class="gag__h">Договор согласован</p>
+          <p class="gag__file">Договор_final.docx</p>
+        </div>
+        <div class="gag__face gag__face--life">
+          <p class="gag__cap">На&nbsp;практике</p>
+          <ul class="gag__files">
+            <li class="is-old">Договор_final.docx</li>
+            <li class="is-old">Договор_final_v2.docx</li>
+            <li class="is-old">Договор_final_v7.docx</li>
+            <li>Договор_final_v7_<wbr>ТОЧНО_final(2).docx</li>
+          </ul>
+          <p class="note gag__note">Финальная версия та, которую подписали.</p>
+        </div>
+      </div>
+      <button class="gag__toggle" type="button" aria-pressed="false"><span class="to-life">А&nbsp;на&nbsp;практике?</span><span class="to-slide">Вернуть в&nbsp;теорию</span></button>
+    </article>
+
+    <!-- Эпизод 2 -->
+    <article class="gag reveal" data-gag>
+      <header class="gag__top"><span>Эпизод 02</span><h3>Маркировка</h3></header>
+      <div class="gag__stage">
+        <div class="gag__face gag__face--slide">
+          <p class="gag__cap">В&nbsp;теории</p>
+          <p class="gag__h">Реклама маркируется до&nbsp;публикации</p>
+          <ol class="gag__chips"><li>токен</li><li>пост</li><li>отчёт в&nbsp;ЕРИР</li></ol>
+        </div>
+        <div class="gag__face gag__face--life">
+          <p class="gag__cap">На&nbsp;практике</p>
+          <p class="gag__msg">Пост уже вышел. А&nbsp;токен можно завтра?<time>23:41</time></p>
+          <p class="note gag__note">Сначала токен, потом пост.</p>
+        </div>
+      </div>
+      <button class="gag__toggle" type="button" aria-pressed="false"><span class="to-life">А&nbsp;на&nbsp;практике?</span><span class="to-slide">Вернуть в&nbsp;теорию</span></button>
+    </article>
+
+    <!-- Эпизод 3 -->
+    <article class="gag reveal" data-gag>
+      <header class="gag__top"><span>Эпизод 03</span><h3>Товарный знак</h3></header>
+      <div class="gag__stage">
+        <div class="gag__face gag__face--slide">
+          <p class="gag__cap">В&nbsp;теории</p>
+          <p class="gag__h">Логотип уникальный</p>
+          <div class="gag__logos">
+            <div><svg viewBox="0 0 64 64" aria-hidden="true"><circle cx="32" cy="32" r="30"/><path d="M19 44 45 20"/></svg>дизайнер подтвердил</div>
+          </div>
+        </div>
+        <div class="gag__face gag__face--life">
+          <p class="gag__cap">На&nbsp;практике</p>
+          <div class="gag__logos">
+            <div><svg viewBox="0 0 64 64" aria-hidden="true"><circle cx="32" cy="32" r="30"/><path d="M19 44 45 20"/></svg>наш</div>
+            <div><svg viewBox="0 0 64 64" aria-hidden="true"><circle cx="32" cy="32" r="30"/><path d="M18 42 46 22"/></svg>в&nbsp;реестре с&nbsp;2014</div>
+          </div>
+          <p class="gag__stamp">Сходство до&nbsp;степени смешения</p>
+          <p class="note gag__note">Проверить до&nbsp;печати вывесок дешевле.</p>
+        </div>
+      </div>
+      <button class="gag__toggle" type="button" aria-pressed="false"><span class="to-life">А&nbsp;на&nbsp;практике?</span><span class="to-slide">Вернуть в&nbsp;теорию</span></button>
+    </article>
+
+    <!-- Эпизод 4 -->
+    <article class="gag reveal" data-gag>
+      <header class="gag__top"><span>Эпизод 04</span><h3>Согласие</h3></header>
+      <div class="gag__stage">
+        <div class="gag__face gag__face--slide">
+          <p class="gag__cap">В&nbsp;теории</p>
+          <p class="gag__h">Пользователь ознакомился с&nbsp;политикой</p>
+          <p class="gag__check">Я&nbsp;прочитал и&nbsp;согласен</p>
+        </div>
+        <div class="gag__face gag__face--life">
+          <p class="gag__cap">На&nbsp;практике · время на&nbsp;странице</p>
+          <p class="gag__mega">0,4&nbsp;с</p>
+          <p class="gag__check">Я&nbsp;прочитал и&nbsp;согласен</p>
+          <p class="note gag__note">Согласие всё равно нужно.</p>
+        </div>
+      </div>
+      <button class="gag__toggle" type="button" aria-pressed="false"><span class="to-life">А&nbsp;на&nbsp;практике?</span><span class="to-slide">Вернуть в&nbsp;теорию</span></button>
+    </article>
+  </div>
+  <p class="irony__fine reveal">Ситуации условные.</p>
+</section>
+
+<!-- ============ 05. НАВЫКИ ============ -->
+<section class="skills sec sec--milk" id="skills" data-theme="light" aria-labelledby="skills-title">
+  <div class="sec__head">
+    <p class="eyebrow">05 / Навыки и&nbsp;инструменты</p>
+    <h2 class="h-sec reveal-clip" id="skills-title">Навыки</h2>
+  </div>
+
+  <ul class="skillset">
+    <li class="skill reveal">
+      <h3>Интеллектуальная собственность</h3>
+      <p>Авторское право <i>/</i> товарные знаки <i>/</i> средства индивидуализации <i>/</i> лицензионные договоры</p>
+    </li>
+    <li class="skill reveal">
+      <h3>Реклама</h3>
+      <p>Рекламное право <i>/</i> маркировка рекламы <i>/</i> правовой мониторинг</p>
+    </li>
+    <li class="skill reveal">
+      <h3>Данные и&nbsp;комплаенс</h3>
+      <p>Защита персональных данных <i>/</i> цифровое право <i>/</i> комплаенс</p>
+    </li>
+    <li class="skill reveal">
+      <h3>Договоры</h3>
+      <p>Договорная работа <i>/</i> экспертиза документов <i>/</i> составление юридических документов <i>/</i> ведение переговоров</p>
+    </li>
+    <li class="skill reveal">
+      <h3>Практика</h3>
+      <p>Анализ судебной практики <i>/</i> гражданское право <i>/</i> консультирование по&nbsp;правовым вопросам <i>/</i> юридическое сопровождение <i>/</i> деловая переписка</p>
+    </li>
+  </ul>
+
+  <div class="tools reveal">
+    <h3 class="eyebrow">Инструменты</h3>
+    <ul>
+      <li>КонсультантПлюс</li>
+      <li>Гарант</li>
+      <li>Системы ЭДО</li>
+      <li>ОРД и&nbsp;ЕРИР</li>
+    </ul>
+  </div>
+  <div class="tools reveal">
+    <h3 class="eyebrow">Языки</h3>
+    <ul>
+      <li>Русский, родной</li>
+      <li>Английский, B2</li>
+    </ul>
+  </div>
+</section>
+
+<!-- ============ 06. КОНТАКТЫ ============ -->
+<section class="contact sec sec--dark" id="contact" data-theme="dark" aria-labelledby="contact-title">
+  <p class="eyebrow eyebrow--lime">06 / Контакты</p>
+  <h2 class="contact__title reveal-clip" id="contact-title" data-fit><span class="fit">Буду рад<br><em>сотрудничеству</em></span></h2>
+  <div class="contact__row">
+    <p class="contact__lead reveal">Напишите на&nbsp;почту или в&nbsp;Telegram.</p>
+    <div class="contact__actions reveal">
+      <a class="btn btn--lime btn--xl" href="mailto:artem.nekras@mail.ru">Написать на&nbsp;почту <span class="btn__arrow" aria-hidden="true">↗</span></a>
+      <a class="btn btn--line btn--xl" href="https://t.me/artyom_nekrasov" target="_blank" rel="noopener">Написать в&nbsp;Telegram</a>
+    </div>
+  </div>
+
+  <dl class="contact__list">
+    <div><dt>Почта</dt><dd><a class="link" href="mailto:artem.nekras@mail.ru">artem.nekras@mail.ru</a> <button class="copy" type="button" data-copy="artem.nekras@mail.ru">Скопировать</button></dd></div>
+    <div><dt>Телефон</dt><dd><a class="link" href="tel:+79997259798">+7 999 725-97-98</a></dd></div>
+    <div><dt>Telegram</dt><dd><a class="link" href="https://t.me/artyom_nekrasov" target="_blank" rel="noopener">@artyom_nekrasov</a></dd></div>
+    <div><dt>Формат работы</dt><dd>Офис, удалённо или гибрид</dd></div>
+  </dl>
+  <p class="copy__status" role="status" aria-live="polite" data-copy-status></p>
+</section>
+
+</main>
+
+<footer class="foot" data-theme="dark">
+  <p>© 2026 Артём Некрасов. Юрист, Москва.</p>
+  <button class="foot__motion" type="button" aria-pressed="false" data-motion-toggle>Анимации: включены</button>
+  <a href="#top">Наверх ↑</a>
+</footer>
+
+<noscript><style>.reveal,.reveal-clip{opacity:1!important;transform:none!important;clip-path:none!important}</style></noscript>
+<script src="js/app.js" defer></script>
+</body>
+</html>
